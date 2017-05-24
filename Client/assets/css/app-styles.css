@@ -1,0 +1,20 @@
+body{
+  background-color:#FAFAFA;
+  height: 100%;   
+}
+
+.shadow-bg{
+ box-shadow: 0 0px 7px 3px #dedede;
+}
+.login-box{
+ 
+  margin-top: 50px;
+}
+
+.btn-full{
+  width: 100%;
+}
+.form-error{
+  color:red;
+
+}

@@ -1,0 +1,33 @@
+<div class="row">
+
+    <div class="col-sm-offset-4 col-sm-4 col-sm-offset-4 login-box">
+        <div class="panel panel-default shadow-bg">
+            <div class="panel-heading">
+                <h4>Login</h4>
+            </div>
+            <div class="panel-body">
+                <form class="" name="loginForm" novalidate ng-submit="loginForm.$valid && login()">
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="email" required name="userName" class="form-control" ng-model="data.username">
+                        <div class="form-error" 
+                            
+                             ng-show="loginForm.userName.$touched && loginForm.userName.$invalid">
+                            <span id="error-username" >Invalid email address !</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" required name="password" class="form-control" ng-model="data.password">
+                        <div class="form-error" ng-show="loginForm.password.$touched && loginForm.password.$invalid">
+                            <span id="error-password">Invalid password !</span>
+                        </div>
+                    </div>
+                    <button ng-disabled="isLoading" name="submitButton" class="btn btn-primary btn-full">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

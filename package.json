@@ -1,0 +1,30 @@
+{
+  "name": "mystore",
+  "version": "1.0.0",
+  "description": "Sample application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-debug": "^3.0.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-main-bower-files": "^1.5.3",
+    "jasmine-core": "^2.6.1",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0"
+  },
+  "dependencies": {
+    "gulp-bower-files": "^0.2.7",
+    "gulp-clean": "^0.3.2",
+    "gulp-order": "^1.1.1"
+  }
+}
